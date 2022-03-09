@@ -69,7 +69,7 @@
     <div class="contact-col">
 
 <!-- action="formhandler.php" method="post"   -->
-<form onsubmit="sendEmail(); reset();  return false;">
+<form action="formhandler.php" method="post" onsubmit="sendEmail(); reset();">
     <input type="text" name="name" id="name" placeholder="Enter your name " required>
     <input type="email" name="email"placeholder="Enter your eamil address " id="email" required>
     <input type="text" name="subject" id="subject" placeholder="Enter your subject " required>
